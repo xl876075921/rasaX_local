@@ -1,7 +1,3 @@
-# The config recipe.
-# https://rasa.com/docs/rasa/model-configuration/
-recipe: default.v1
-
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
 language: en
@@ -37,9 +33,6 @@ policies:
 # # See https://rasa.com/docs/rasa/policies for more information.
 #   - name: MemoizationPolicy
 #   - name: RulePolicy
-#   - name: UnexpecTEDIntentPolicy
-#     max_history: 5
-#     epochs: 100
 #   - name: TEDPolicy
 #     max_history: 5
 #     epochs: 100
